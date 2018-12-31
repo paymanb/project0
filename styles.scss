@@ -28,6 +28,10 @@ ol {
     margin-left: $marginLeft;
 }
 
+.main li {
+    color: chocolate;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -56,4 +60,8 @@ td[class=price],th[class=price] {
 
 .info::before {
     content: "\2192  "
+}
+
+a:visited {
+    color: blueviolet;
 }
