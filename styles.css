@@ -1,0 +1,27 @@
+h3 {
+  text-align: left;
+  color: Brown;
+  margin: 20px;
+  padding: 20px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+ol {
+  margin: 20px;
+}
+
+.listTitle {
+  margin-left: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/*# sourceMappingURL=styles.css.map */

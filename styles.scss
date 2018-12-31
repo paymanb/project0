@@ -1,0 +1,28 @@
+$color:Brown;
+$marginLeft:20px;
+
+h3 {
+    text-align:left;
+    color: $color;
+    margin: $marginLeft;
+    padding: 20px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+ol {
+    margin: $marginLeft;
+}
+
+.listTitle {
+    margin-left: $marginLeft;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
