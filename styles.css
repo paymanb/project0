@@ -24,4 +24,22 @@ img {
   width: 60%;
 }
 
+table {
+  border: 2px black solid;
+  display: table;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+tr, td, th {
+  border: 1px black solid;
+  padding: 10px;
+}
+
+td[class=price], th[class=price] {
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
