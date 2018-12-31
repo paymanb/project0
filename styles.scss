@@ -8,6 +8,14 @@ h3 {
     padding: 20px;
 }
 
+h5 {
+    margin: $marginLeft;
+}
+
+#mainParaph {
+    margin: $marginLeft;
+}
+
 body {
     background-color: antiquewhite;
 }
@@ -44,4 +52,8 @@ tr,td,th {
 
 td[class=price],th[class=price] {
     text-align: center;
+}
+
+.info::before {
+    content: "\2192  "
 }

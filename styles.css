@@ -1,8 +1,17 @@
+@charset "UTF-8";
 h3 {
   text-align: left;
   color: Brown;
   margin: 20px;
   padding: 20px;
+}
+
+h5 {
+  margin: 20px;
+}
+
+#mainParaph {
+  margin: 20px;
 }
 
 body {
@@ -40,6 +49,10 @@ tr, td, th {
 
 td[class=price], th[class=price] {
   text-align: center;
+}
+
+.info::before {
+  content: "→ ";
 }
 
 /*# sourceMappingURL=styles.css.map */
