@@ -1,4 +1,12 @@
 @charset "UTF-8";
+body {
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
 h3 {
   text-align: left;
   color: Brown;
@@ -10,12 +18,11 @@ h5 {
   margin: 20px;
 }
 
-#mainParaph {
+#mainTopic {
   margin: 20px;
-}
-
-body {
-  background-color: antiquewhite;
+  color: Brown;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 ol {
@@ -24,6 +31,8 @@ ol {
 
 .listTitle {
   margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .main li {
@@ -61,8 +70,25 @@ td[class=price], th[class=price] {
   content: "→ ";
 }
 
+.info {
+  font-size: 25px;
+  color: crimson;
+}
+
 a:visited {
   color: blueviolet;
+}
+
+.lists li {
+  color: darkred;
+  font-size: 25px;
+}
+
+@media (max-width: 500px) {
+  .info {
+    font-size: 20px;
+    font-style: italic;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
